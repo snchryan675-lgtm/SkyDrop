@@ -1,0 +1,20 @@
+{
+  "name": "skydrop-royale",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.5",
+    "@fontsource/luckiest-guy": "^5.2.5",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
